@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url(img/Nebula.jpg), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 20rem;
+    padding-top: 20rem;
+    margin-bottom: 1.2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(157, 243, 197);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero-text h1 {
+    font-size: 5.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 3vh;
+}
+
+.hero-text p {
+    font-weight: lighter;
+    font-size: 2rem;
+    padding-bottom: 3vh;
+    font-style: italic;
+}
+
+.hero-text button {
+    width: fit-content;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5em 1.2em;
+    border-radius: 30px;
+    background-color: rgba(80, 80, 80, 0.8);
+    color: orange;
+}
