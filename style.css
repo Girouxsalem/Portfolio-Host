@@ -13,9 +13,18 @@ body {
     background-color:darkorange;
 }
 
-main, header, footer {
+header {
     margin: 1rem 2rem 2rem 2rem;
     position: relative;
+}
+
+main {
+    margin: 1rem 2rem 0 2rem;
+    position: relative;
+}
+
+footer {
+    margin: 0 2rem 1rem 2rem;
 }
 
 img {
@@ -29,9 +38,9 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding-bottom: 20rem;
-    padding-top: 20rem;
-    border: 1px solid black;
+    padding-bottom: 15rem;
+    padding-top: 15rem;
+    border: 3px solid black;
     
 }
 
@@ -44,6 +53,10 @@ img {
     color: white;
 }
 
+a #github:hover {
+    color: darkorange;
+}
+
 #linked {
     display: inline;
     position: absolute;
@@ -51,6 +64,10 @@ img {
     top: 5%;
     left: 95%;
     color: white;
+}
+
+a #linked:hover {
+    color: darkorange;
 }
 
 .hero-text {
@@ -64,7 +81,7 @@ img {
 }
 
 .hero-text h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     text-decoration: underline;
     padding-bottom: 3vh;
@@ -72,18 +89,18 @@ img {
 
 .hero-text p {
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 3vh;
     font-style: italic;
 }
 
 .hero-text button {
     width: fit-content;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     padding: 0.5em 1.2em;
     border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     color: orange;
 }
 
@@ -170,7 +187,6 @@ ul {
 
 .contact {
     position: relative;
-    margin-bottom: 1rem;
     background-color: black;
     padding: 2rem 3.5rem;
     color: white;
@@ -187,14 +203,15 @@ h5 {
     top: 41%;
     left: 55%;
     font-size: 3rem;
+    color: white;
 }
+
 .git {
     font-size: 1rem;
 }
 
 .link {
     font-size: 1rem;
-    color: white;
 }
 
 #linked2 {
@@ -202,8 +219,16 @@ h5 {
     top: 21%;
     left: 55%;
     font-size: 3rem;
+    color: white;
 }
 
+a #github2:hover {
+    color: darkorange;
+}
+
+a #linked2:hover {
+    color: darkorange;
+}
 
 form {
     display: flex;
@@ -233,5 +258,9 @@ textarea {
 }
 
 footer {
-    
+    background-color: black;
+    color: darkorange;
+    text-align: center;
+    padding: 1.2rem;
+    border-top: 1px solid darkorange;
 }
