@@ -12,6 +12,7 @@ body html {
 body {
     background-color:darkorange;
     max-width: 1500px;
+    font-family: sans-serif;
 }
 
 header {
