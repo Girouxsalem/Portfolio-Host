@@ -174,7 +174,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     color: black;
-    padding-left: 1.5rem;
+    padding-left: 0.5rem;
     font-weight: 550;
 }
 
@@ -332,13 +332,19 @@ footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         border-bottom: 1px solid darkorange;
-        padding-bottom: 10vh;
+        padding: 2rem 2.5rem 2rem 2.5rem;
     }
 
     .card {
-        width: 40%;
+        width: 48%;
+        
+    }
+
+    #card3 {
+        margin-top: 1rem;
+        
     }
 
     h5 {
@@ -406,6 +412,10 @@ footer {
         padding: 3rem 0;
         border-top: 1px solid darkorange;
         border-bottom: 1px solid darkorange;
+    }
+
+    .about-me-text {
+        padding: 0rem 3rem;
     }
 
     .about-me-text h2 {
